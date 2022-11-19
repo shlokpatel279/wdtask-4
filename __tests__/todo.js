@@ -1,4 +1,7 @@
+/* eslint-disable no-undef */
+"use strict";
 const todoList = require("../todo");
+
 const { all, markAsComplete, add, overdue, dueLater, dueToday } = todoList();
 
 var today = new Date();
